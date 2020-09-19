@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	display: grid;
+	grid-template-columns: auto 600px auto;
+	background-color: #1c1c1c;
+	color: #e3e3e3;
+}
+
+a,
+a:focus,
+a:visited {
+	color: lightcoral;
+}
+
+.policy-container {
+	grid-column: 2 / 3;
+}
